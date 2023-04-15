@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  teste-pipeline1000grau:
+    image: sergioduarte/teste:1.0
+    container_name: my-running-appJOOJ
+    restart: always
+    ports:
+      - '8080:80'
